@@ -1,0 +1,17 @@
+<div>
+    <span></span>
+
+    <div class="container my-4">
+
+    <p>Here are the latest blog posts:</p>
+
+    <ul class="list-group">
+        <% posts.forEach(post => { %>
+            <li class="list-group-item">
+                <h3><%= post.title %></h3>
+                <p><%= post.content %></p>
+            </li>
+        <% }) %>
+    </ul>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+<div class="container">
+    <h1>Welcome to the Blog</h1>
+    <p>This is a simple blog template using EJS and Express.</p>
+
+    <% posts.forEach(function(post) { %>
+        <h2>
+            <%= post.title %>
+        </h2>
+        <p>
+            <%= post.content %>
+        </p>
+        <hr>
+        <% }); %>
+            <button class="btn btn-primary">
+                <a href="/new-post" class="text-white text-decoration-none">Create New Post</a>
+            </button>
+</div>
+
+<%- include("partials/footer") %>

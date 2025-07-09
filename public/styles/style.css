@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #007bff;
+}
+
+svg {
+    color: #333;
+}
+svg:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #007bff;
+}
