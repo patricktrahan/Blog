@@ -1,6 +1,5 @@
 <h1>Blog App That allows the creation of blog posts.</h1>
 <h2>
-  Live preview here
    <a href="https://blog-nzi3.onrender.com/">Live Project</a> 
 </h2>
 
